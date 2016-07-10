@@ -59,8 +59,8 @@
 <libraries>
 <library name="esp8266modules">
 <packages>
-<package name="ESP-03">
-<description>ESP8266 Modules 3 &amp; 4</description>
+<package name="ESP03">
+<description>ESP8266 Modules ESP-03</description>
 <wire x1="-5" y1="-8.6" x2="7.2" y2="-8.6" width="0.127" layer="21"/>
 <wire x1="-5" y1="8.8" x2="7.2" y2="8.8" width="0.127" layer="21"/>
 <wire x1="7.2" y1="8.8" x2="7.2" y2="5.6" width="0.127" layer="21"/>
@@ -93,19 +93,11 @@
 <wire x1="-2.4" y1="-3.4" x2="-2.4" y2="-8.4" width="0.127" layer="21"/>
 <wire x1="-2.4" y1="-8.4" x2="2.4" y2="-8.4" width="0.127" layer="21"/>
 <wire x1="2.4" y1="-8.4" x2="2.4" y2="-3.4" width="0.127" layer="21"/>
-<wire x1="-5" y1="5.6" x2="7.2" y2="5.6" width="0.127" layer="21"/>
 <text x="-2" y="6.4" size="1.27" layer="21">ESP03</text>
-<text x="-2" y="4" size="1.27" layer="21">ESP04</text>
 <rectangle x1="-4.4" y1="6" x2="-2" y2="8.4" layer="21" rot="R270"/>
 <rectangle x1="3.8" y1="5.8" x2="6.2" y2="8.6" layer="21" rot="R270"/>
 <text x="-5" y="8.73" size="1.27" layer="25">&gt;Name</text>
 <text x="-5" y="-10" size="1.27" layer="27">&gt;Value</text>
-<polygon width="0.127" layer="41" pour="hatch">
-<vertex x="-4.445" y="8.255"/>
-<vertex x="6.35" y="8.255"/>
-<vertex x="6.35" y="5.715"/>
-<vertex x="-4.445" y="5.715"/>
-</polygon>
 </package>
 </packages>
 <symbols>
@@ -140,7 +132,7 @@
 <gate name="G$1" symbol="ESP8266" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ESP-03">
+<device name="" package="ESP03">
 <connects>
 <connect gate="G$1" pin="ANT" pad="ANT"/>
 <connect gate="G$1" pin="CH_PD" pad="CH_PD"/>
